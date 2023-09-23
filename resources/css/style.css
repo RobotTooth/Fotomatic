@@ -47,10 +47,13 @@ header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem;
+  height: 85px;
 }
 
 header .logo {
   flex: 1;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
 }
 
 header nav ul {
@@ -66,6 +69,14 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 header .icon {
