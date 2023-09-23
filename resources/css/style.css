@@ -57,9 +57,6 @@ a {
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  display: block;
-  margin: 0;
-  padding: 0;
 }
 
 .main-content {
@@ -288,6 +285,7 @@ header .mobile {
   display: flex;
   justify-content: space-between;
   padding: 4rem 5%;
+  padding-bottom: 46px; 
   background-color: #f3f3f3;
 }
 
@@ -304,6 +302,11 @@ header .mobile {
   margin: 0 auto;
 }
 
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
@@ -316,6 +319,10 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+}
+
+.feature .content {
+  padding: 2.5rem 0;
 }
 
 @media only screen and (max-width: 890px) {
@@ -369,6 +376,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -409,11 +417,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
